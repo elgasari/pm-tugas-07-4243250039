@@ -91,7 +91,7 @@ class PlannerTugasApp extends StatelessWidget {
       title: 'Planner Tugas Kuliah',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.indigo),
+        colorScheme: ColorScheme.fromSeed(seedColor: const Color.fromARGB(177, 210, 40, 187)),
         useMaterial3: true,
       ),
       routerConfig: _router,
